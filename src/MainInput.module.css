@@ -1,0 +1,20 @@
+.inputContainer {
+  margin: 0 auto;
+  background-color: var(--corPrincipal);
+  text-align: center;
+  height: 87px;
+}
+
+.search {
+  width: 350px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: var(--corPrincipal);
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.search:hover {
+  background-color: #ccc;
+}

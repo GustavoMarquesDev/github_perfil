@@ -15,6 +15,7 @@ function App() {
           className={styles.search}
           type="text"
           onBlur={(e) => setNomeUsuario(e.target.value)}
+          placeholder="Digite o nome do perfil"
         />
       </div>
 

@@ -8,6 +8,7 @@ const ReposList = ({ nomeUsuario }) => {
   const [deuErro, setDeuErro] = useState(false);
 
   useEffect(() => {
+    setDeuErro(false);
     setEstaCarregando(true);
     fetch(`https://api.github.com/users/${nomeUsuario}/repos`)
       .then((res) => {
